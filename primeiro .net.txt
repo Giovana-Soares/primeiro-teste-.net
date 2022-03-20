@@ -1,0 +1,48 @@
+Microsoft Windows [versão 10.0.19042.1586]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\giova>dotnet new console -o MyApp -f net6.0
+
+Bem-vindo(a) ao .NET 6.0.
+---------------------
+Versão do SDK: 6.0.201
+
+Telemetria
+---------
+As ferramentas do .NET coletam dados de uso para ajudar-nos a aprimorar sua experiência. Eles são coletados pela Microsoft e compartilhados com a comunidade. Você pode recusar a telemetria definindo a variável de ambiente DOTNET_CLI_TELEMETRY_OPTOUT como '1' ou 'true' usando seu shell favorito.
+
+Leia mais sobre a telemetria das Ferramentas da CLI do .NET: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Um certificado de desenvolvimento HTTPS ASP.NET Core foi instalado.
+Para confiar no certificado, execute 'dotnet dev-certs https --trust' (somente Windows e macOS).
+Saiba mais sobre HTTPS: https://aka.ms/dotnet-https
+----------------
+Escreva seu primeiro aplicativo: https://aka.ms/dotnet-hello-world
+Descubra o que há de novo: https://aka.ms/dotnet-whats-new
+Explore a documentação: https://aka.ms/dotnet-docs
+Relate problemas e encontre a fonte no GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' para ver os comandos disponíveis ou visite: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+O modelo "Aplicativo do Console" foi criado com êxito.
+
+Processando ações pós-criação...
+Executando 'dotnet restore' em C:\Users\giova\MyApp\MyApp.csproj...
+  Determinando os projetos a serem restaurados...
+  C:\Users\giova\MyApp\MyApp.csproj restaurado (em 164 ms).
+A restauração foi bem-sucedida.
+
+C:\Users\giova>cd MyApp
+
+C:\Users\giova\MyApp>Console.WriteLine("Hello, World!");
+'Console.WriteLine' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\giova\MyApp>dotnet run
+Hello, World!
+
+C:\Users\giova\MyApp>dotnet run
+Hello, World!
+The current time is 20/03/2022 10:18:03
+
+C:\Users\giova\MyApp>
